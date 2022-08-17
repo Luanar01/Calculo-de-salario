@@ -1,2 +1,2 @@
-# Tabuada
+# Calculadora
 Calculadora/Lógica de programação
