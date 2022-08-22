@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-24 06:23:08 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUtFNTNUODA7MjAyMi0wNS0xODsiMTA6NDM6MDQgIjsyNjIx"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUtFNTNUODA7MjAyMi0wNS0yNDsiMDY6MjM6MDggIjs1OzI3Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NomeAluno" type="String" array="False" size=""/>
+            <declare name="CPF" type="String" array="False" size=""/>
+            <declare name="Endere&#231;o" type="String" array="False" size=""/>
+            <declare name="NomeCompletoDoResponsavel" type="String" array="False" size=""/>
+            <input variable="NomeAluno"/>
+            <output expression="&quot;Ol&#225;, me informe o CPF?&quot;" newline="True"/>
+            <input variable="CPF"/>
+            <output expression="&quot;Thanks, :D. Agora por gentileza, o seu endere&#231;o... &quot;" newline="True"/>
+            <input variable="Endere&#231;o"/>
+            <output expression="&quot; Estamos quase concluindo, agora por favor o seu nome completo. &quot;" newline="True"/>
+            <input variable="NomeCompletoDoResponsavel"/>
+        </body>
+    </function>
+</flowgorithm>
